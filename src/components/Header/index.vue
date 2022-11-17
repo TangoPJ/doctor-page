@@ -1,6 +1,8 @@
 <template>
   <header class='header'>
-    <div class="bg" :style="{ backgroundImage: `url(${headerBackgroundImage})` }"></div>
+    <div class="bg" :style="{ backgroundImage: `url(${headerBackgroundImage})` }">
+      <!-- <img src="../../assets/images/header-bg.jpeg" alt=""> -->
+    </div>
     <div class="header__content">
       <h1 class="header__title">Персональный врач</h1>
       <h2 class="header__subtitle">Добро пожаловать на официальный сайт персонального врача. Квалифицированный специалист помогает поддерживать ваше здоровье</h2>
